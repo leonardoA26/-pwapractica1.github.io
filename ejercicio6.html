@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+</head>
+<style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.box {
+    width: 300px; /* Ancho de la caja */
+    height: 200px; /* Alto de la caja */
+    background-color: #dceb0c; /* Color de fondo */
+    border: 2px solid #f00909; /* Borde */
+    text-align: center;
+    position: relative;
+}
+
+.slider {
+    width: 100%; /* Ancho del slider */
+    height: 10px; /* Altura del slider */
+    background-color: #020201; /* Color del slider */
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0a1a20; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente del texto */
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="slider"></div>
+            <div class="text">LEONARDO ASENCIO </div>
+        </div>
+    </div>
+</body>
+</html>
